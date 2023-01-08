@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="player-wrapper">
+    <header>
+      <p1>playlist</p1>
+      <p>best vibes of the week</p>
+    </header>
+    <div class="album"></div>
+    <div class="song-info">
+      <h id="h">Lonely</h>
+      <p id="p">Aekon</p>
+      <div class="progress-bar">
+        <div id="progress"></div>
+      </div>
+      <div class="controls">
+        <div name="play-back" id="prev"><img src="img/backward-solid.svg" alt=""></div>
+        <div name="play-circle" id="play">
+          <img src="img/play-solid.svg" alt="" class="img-play">
+          <img src="img/stop-solid.svg" alt="" class="display img-stop"></div>
+        <div name="play-forward" id="next"><img src="img/forward-solid.svg" alt=""></div>
+      </div>
+      <audio id="audio">
+        <source src="music/01 Akon - Lonely (Old Version).mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
